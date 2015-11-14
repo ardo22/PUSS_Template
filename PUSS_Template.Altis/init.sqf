@@ -64,7 +64,7 @@ f_script_setTeamColours = [] execVM "f\setTeamColours\f_setTeamColours.sqf";
 // F3 - F3 Folk ARPS Group Markers
 // Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
 
-f_script_setGroupMarkers = [] execVM "f\groupMarkers\f_setLocalGroupMarkers.sqf";
+// f_script_setGroupMarkers = [] execVM "f\groupMarkers\f_setLocalGroupMarkers.sqf";
 
 // ====================================================================================
 
@@ -80,7 +80,7 @@ if(isServer) then {
 // F3 - Automatic Body Removal
 // Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
 
- f_var_removeBodyDelay = 180;
+ f_var_removeBodyDelay = 120;
  f_var_removeBodyDistance = 500;
  f_var_doNotRemoveBodies = [];
  [] execVM "f\removeBody\f_addRemoveBodyEH.sqf";
