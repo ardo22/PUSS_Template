@@ -12,6 +12,8 @@ class Header
 
 // ============================================================================================
 
+DisabledAI = 1;
+
 // F3 - Loading Screen
 // Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
 
