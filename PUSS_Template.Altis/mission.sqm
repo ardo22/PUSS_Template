@@ -9,7 +9,6 @@ class Mission
 		"A3_Characters_F_INDEP",
 		"a3_map_altis",
 		"A3_Weapons_F_Beta_Ammoboxes",
-		"dac_source",
 		"A3_Supplies_F_Heli_CargoNets",
 		"A3_Characters_F_Gamma"
 	};
@@ -19,7 +18,6 @@ class Mission
 		"a3_characters_f",
 		"A3_Characters_F_OPFOR",
 		"A3_Characters_F_INDEP",
-		"dac_source",
 		"A3_Supplies_F_Heli_CargoNets",
 		"a3_map_altis"
 	};
@@ -4669,7 +4667,7 @@ class Mission
 					position[]={23273.539,3.1900001,19152.238};
 					id=298;
 					side="LOGIC";
-					vehicle="DAC_Source_Extern";
+					vehicle="none";
 					leader=1;
 					skill=0.60000002;
 				};
