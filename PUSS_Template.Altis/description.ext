@@ -35,11 +35,10 @@ enableDebugConsole = 1;
 // F3 - Respawn Settings
 // Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
 
-respawn = 1; // respawn w bazie ( Na PvP zmienić na respawn = 1 )
+respawn = 2; // 
 respawndelay = 5; // 5s Oczekiwanie na resp
 respawnOnStart = 0; // nie tykac
-//respawnTemplates[] = {"Seagull","f_spectator","f_JIP"}; // Tryb obserwatora na PvP
-respawnTemplates[] = {"Seagull","f_SpectatorRespawn"}; // Spectator z opcją respawnu ( używać tylko gdy respawn=3 )
+respawnTemplates[] = {"NONE","BASE","Spectator","f_spectator"}; // 
 
 // ============================================================================================
 
@@ -150,7 +149,7 @@ class Params
             title = "$STR_f_param_loadouts";
             values[] = {0,1,2};
             texts[] = {"Lekkie","Średnie","Cieżkie"};
-            default = 2;
+            default = 1;
             code = "f_param_backpacks = %1";
     };
     
@@ -159,14 +158,14 @@ class Params
 
 // Mechanizm wyboru wyposażenia dzień/noc
 
-    class f_param_night_day_wyp
-    {
-            title = "$STR_f_param_night_day";
-            values[] = {0,1};
-            texts[] = {"Noc","Dzień"};
-            default = 1;
-            code = "f_param_night_day_wyp = %1";
-    };
+//    class f_param_night_day_wyp
+//    {
+//            title = "$STR_f_param_night_day";
+//            values[] = {0,1};
+//          texts[] = {"Noc","Dzień"};
+//            default = 1;
+//         code = "f_param_night_day_wyp = %1";
+//   };
 
 // ============================================================================================
 
@@ -178,7 +177,7 @@ class Params
             title = "Radio System";
             values[] = {0,1,2,3};
             texts[] = {"Off","ACRE","TFR","ACRE2"};
-            default = 2;
+            default = 0;
             code = "f_var_radios = %1";
     };
 
