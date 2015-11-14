@@ -35,10 +35,10 @@ enableDebugConsole = 1;
 // F3 - Respawn Settings
 // Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
 
-respawn = 2; // 
-respawndelay = 5; // 5s Oczekiwanie na resp
+respawn = 0;
+respawndelay = 5;
 respawnOnStart = 0; // nie tykac
-respawnTemplates[] = {"NONE","BASE","Spectator","f_spectator"}; // 
+respawnTemplates[] = {"spectator"};		
 
 // ============================================================================================
 
