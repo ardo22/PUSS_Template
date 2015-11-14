@@ -15,10 +15,10 @@ class Header
 // F3 - Loading Screen
 // Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
 
-onLoadName = ""; // Dodaj nazwe misji np. "Operacja Baranek"
-onLoadMission = "sds-polska.pl"; // Nie zmieniaj
-author = "Przemro"; // Dodaj autora lub autorów misji
-loadScreen = "logo.paa"; // Nie zmieniaj
+onLoadName = ""; // nazwa misji
+onLoadMission = "1st Pussyfooters Cavalry"; 
+author = "xyz"; // Dodaj autora lub autorów misji
+loadScreen = "logo.paa"; // obrazek
 overviewPicture = "logo2.jpg"; // Tutaj możesz dodać obrazek który bdzie sie wyswietlal jak misja bedzie wybierana na serwerze
 
 // ============================================================================================
@@ -33,7 +33,7 @@ enableDebugConsole = 1;
 // F3 - Respawn Settings
 // Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
 
-respawn = 3; // respawn w bazie ( Na PvP zmienić na respawn = 1 )
+respawn = 1; // respawn w bazie ( Na PvP zmienić na respawn = 1 )
 respawndelay = 5; // 5s Oczekiwanie na resp
 respawnOnStart = 0; // nie tykac
 //respawnTemplates[] = {"Seagull","f_spectator","f_JIP"}; // Tryb obserwatora na PvP
